@@ -9,7 +9,7 @@ import SidebarItem from "./sidebaritem";
 import Library from "./library";
 
 interface SideBarProps {
-  children: React.ReactDOM;
+  children: React.ReactNode;
 }
 
 const SideBar: React.FC<SideBarProps> = ({ children }) => {
